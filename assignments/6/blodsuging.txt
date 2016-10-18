@@ -1,0 +1,30 @@
+a) Hva het forgjengeren til det vi i dag kaller "Internett", og hvem startet arbeidet med dette?
+
+ARPANET, av US Department of Defense
+
+b) Hvordan fungerer paritet som feildeteksjonsmetode?
+
+Lagrer informasjon om antallet bits som er skrudd på i en strømm av bits er et partall eller oddetall.
+Rask error check som kan påpeke om f.eks noe gikk galt i overføringen av data fra server til klient.
+
+c) Hva er forskjellen på "circuit switching" og "packet switching"? (Svar på to/tre setninger)
+
+Litt tvilsom forklaring men la gå
+
+Packet switching: Data flyttes i små pakker fra punkt A til B, settes i sammen når de kommer til brukeren
+Circuit switching: Linjen reserveres og brukes bare mellom to brukere, typ telefonsamtale.
+
+d) Hvilke fem (protokoll)-lag brukes ofte for å forklare de forskjellige funksjonene til internettet?
+
+Fysisk lag, nettverks-interface-laget, internett-laget, transportlaget, applikasjonslag
+
+1: Elektronikk, radiofrekvenser, drivere og whatever
+2: Kommunikasjon over nettverket, protokoller til å nå radioer og ting
+3: Internettet, med pakker, TCP, IP, etc
+4: Transportlag, teknikker for å sende data, protokoller, http kanskje
+5: Applikasjoner for webbrowsing og slikt
+
+e) Hva er oppgaven til rutere (Routers) i nettverk? (Svar på to/tre setninger)
+
+Kommuniserer med modemet, som er tingen som prater med selve nettet.
+Kan sende informasjon til og fra flere datamaskiner, altså kinda multiplisere signalet, sette opp wifi etc

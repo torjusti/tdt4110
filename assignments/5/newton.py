@@ -11,10 +11,10 @@ def derivate(h, x, func):
     return (func(x + h / 2) - f(x - h / 2)) / h
 
 def newtons_method(h, x, func, tol):
-    prev = x + tol
-    while abs(prev - x) >= tol:
-        prev = x
+    while True:
+        previous = x
         x -= func(x) / derivate(h, x, func)
+        if abs(previous - x) < tol: break
     return x
 
 def printmsg(h, x, func, tol):

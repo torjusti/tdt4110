@@ -3,16 +3,21 @@ def main():
 
     x = 0
     y = 1
-    s = 0
+    totalSum = 0
     i = 0
 
     while i < n:
         print(x)
         i += 1
-        s += x
+        totalSum += x
         x, y = y, x + y
 
-    print("sum:", s)
-    
+        # xOld = x
+        # x = y
+        # y = xOld + y
+
+
+    print("sum:", totalSum)
+
 if __name__ == "__main__":
     main()

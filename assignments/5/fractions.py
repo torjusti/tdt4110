@@ -1,10 +1,11 @@
 def gcd(a, b):
-    while b != 0: a, b = b, a % b
+    while b != 0:
+        a, b = b, a % b
     return a
 
 def reduceFraction(a, b):
     factor = gcd(a, b)
-    return (a // factor), (b // factor)
+    return (a / factor), (b / factor)
 
 def main():
     while True:

@@ -1,0 +1,17 @@
+1. 8*4=32 => 2^32 kombinasjoner.
+
+2. Digital-analog-converter. Konverterer et digitalt signal til et analogt signal.
+   Kan for eksempel gjøre om data som ligger lagret på datamaskinen til et analogt signal
+   som kan vises på skjermen.
+
+3. 2^1*1+2^4=16+2=18 => 10010. 16^0*2+16^1*1 => 12.
+
+4. OLE
+
+5. Ett punkt på skjermen. Alle pikslene til sammen danner det bildet som vises på skjermen vår.
+
+6. Analogt: en sinuskurve blir forsøkt tatt opp og lagret i sin originale form, lagra på en teiprull elns
+   Digitalt: Lyden vil bli samplet, altså vi tar og måler det nåværende utslaget/amplituden med jevne mellomrom og
+   setter det sammen.
+
+7. Data som dreier seg om data. Se på det som første rad i en tabell, forklarer det data dreier seg om.
